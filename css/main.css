@@ -2055,6 +2055,18 @@ pre code {
   top: 0;
   width: 100%;
 }
+文章内链接文本样式*/,
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+文章内链接文本样式*/:hover,
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
 .post-gallery {
   display: flex;
   min-height: 200px;
@@ -2998,6 +3010,9 @@ mark.search-keyword {
     padding: 10px 12px;
   }
 }
+.widget-title {
+  margin: 10px 0 10px;
+}
 .header-inner {
   border-radius: 30px 30px 30px 30px;
   box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
@@ -3013,6 +3028,9 @@ mark.search-keyword {
 .back-to-top {
   border-radius: 30px 30px 110px 110px;
   box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.back-to-top.back-to-top-on {
+  margin-top: 0px;
 }
 .post-block {
   background-color: rgba(255,255,255,0);

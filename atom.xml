@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-27T09:16:36.450Z</updated>
+  <updated>2021-07-28T08:32:10.748Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,62 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3.8插件hexo-helper-live2d</title>
+    <link href="http://example.com/2021/07/28/3-8-cha-jian-hexo-helper-live2d/"/>
+    <id>http://example.com/2021/07/28/3-8-cha-jian-hexo-helper-live2d/</id>
+    <published>2021-07-28T08:21:00.000Z</published>
+    <updated>2021-07-28T08:32:10.748Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;插件hexo-helper-live2d&quot;&gt;&lt;a href=&quot;#插件hexo-helper-live2d&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-helper-live2d&quot;&gt;&lt;/a&gt;插件hexo-helper-live2d&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;主要是一些二次元的任务（看板娘，面板娘…）&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install -save hexo-helper-live2d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;站点的配置文件中&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;live2d:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  scriptFrom: local&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginRootPath: live2dw/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginJsPath: lib/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginModelPath: assets/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  tagMode: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  model:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    use: live2d-widget-model-wanko  #选择哪种模型&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  display: #放置位置和大小&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    position: right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    width: 150&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    height: 300&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  mobile:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    show: false #是否在手机端显示&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;安装需要显示的模型&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install live2d-widget-model-wanko&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+</summary>
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="插件" scheme="http://example.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.3配置8.6.1--md语法篇</title>
+    <link href="http://example.com/2021/07/28/4-3-pei-zhi-8-6-1-md-yu-fa-pian/"/>
+    <id>http://example.com/2021/07/28/4-3-pei-zhi-8-6-1-md-yu-fa-pian/</id>
+    <published>2021-07-28T08:17:15.000Z</published>
+    <updated>2021-07-28T08:19:43.538Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;md语法&quot;&gt;&lt;a href=&quot;#md语法&quot; class=&quot;headerlink&quot; title=&quot;md语法&quot;&gt;&lt;/a&gt;md语法&lt;/h1&gt;&lt;h3 id=&quot;1-配置note-tag（md的一个语法）&quot;&gt;&lt;a href=&quot;#1-配置note-tag（md的一个语法）&quot; class=&quot;headerlink&quot; title=&quot;1.配置note  tag（md的一个语法）&quot;&gt;&lt;/a&gt;1.配置note  tag（md的一个语法）&lt;/h3&gt;&lt;p&gt;Note标签通过在左边界使用特殊颜色划线，实现提醒功能。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;  #  - simple    bootstrap callout old alert style. Default.引导调用旧提示样式。默认&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - modern    bootstrap callout new (v2-v3) alert style. 引导调用新（v2-v3）提示样式&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #              带背景的扁平callout样式，就像在Mozilla或StackOverflow上一样。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - disabled  disable all CSS styles import of note tag.禁用注释标记的所有CSS样式导入&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;note: &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  style: flat&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  icons: true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;flat:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/07/27/rK4tDUoAfc6VX3H.png&quot; alt=&quot;flat&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;simple:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/07/27/rVQYbB3euyX8sPR.png&quot; alt=&quot;simple&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;modern&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/07/27/z7obPsYZBkJV3Hd.png&quot; alt=&quot;**modern**&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>6.1学习的内容</title>
     <link href="http://example.com/2021/07/27/6-1-xue-xi-de-nei-rong/"/>
     <id>http://example.com/2021/07/27/6-1-xue-xi-de-nei-rong/</id>
     <published>2021-07-27T09:16:19.000Z</published>
-    <updated>2021-07-27T09:16:36.450Z</updated>
+    <updated>2021-07-28T07:29:03.952Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_44036990/article/details/105088198&quot;&gt;hexo(next)——每日一言、今日诗词_cloudYun的博客-CSDN博客&lt;/a&gt;&lt;/p&gt;
@@ -31,6 +82,8 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
   </entry>
   
   <entry>
@@ -38,7 +91,7 @@
     <link href="http://example.com/2021/07/27/5-1-cuo-wu-ji-he/"/>
     <id>http://example.com/2021/07/27/5-1-cuo-wu-ji-he/</id>
     <published>2021-07-27T02:45:18.000Z</published>
-    <updated>2021-07-27T04:50:48.939Z</updated>
+    <updated>2021-07-28T07:28:47.787Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;错误&quot;&gt;&lt;a href=&quot;#错误&quot; class=&quot;headerlink&quot; title=&quot;错误&quot;&gt;&lt;/a&gt;错误&lt;/h1&gt;&lt;p&gt;1.创建新的文章&lt;/p&gt;
@@ -60,6 +113,8 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
   </entry>
   
   <entry>
@@ -67,7 +122,7 @@
     <link href="http://example.com/2021/07/27/4-4-jian-li-tu-ce/"/>
     <id>http://example.com/2021/07/27/4-4-jian-li-tu-ce/</id>
     <published>2021-07-27T02:44:46.000Z</published>
-    <updated>2021-07-28T02:48:18.955Z</updated>
+    <updated>2021-07-28T07:28:37.585Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;建立图册&quot;&gt;&lt;a href=&quot;#建立图册&quot; class=&quot;headerlink&quot; title=&quot;建立图册&quot;&gt;&lt;/a&gt;建立图册&lt;/h1&gt;&lt;p&gt;原理：就是html写道md文档中，完后就能显示了&lt;/p&gt;
@@ -83,6 +138,10 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -90,7 +149,7 @@
     <link href="http://example.com/2021/07/26/4-3-pei-zhi-8.6.1/"/>
     <id>http://example.com/2021/07/26/4-3-pei-zhi-8.6.1/</id>
     <published>2021-07-26T15:18:26.000Z</published>
-    <updated>2021-07-28T02:07:28.818Z</updated>
+    <updated>2021-07-28T08:18:26.851Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;由于下载的版本多，所以…以下关于8-6-1&quot;&gt;&lt;a href=&quot;#由于下载的版本多，所以…以下关于8-6-1&quot; class=&quot;headerlink&quot; title=&quot;由于下载的版本多，所以…以下关于8.6.1&quot;&gt;&lt;/a&gt;由于下载的版本多，所以…以下关于8.6.1&lt;/h1&gt;&lt;h2 id=&quot;版本缺点&quot;&gt;&lt;a href=&quot;#版本缺点&quot; class=&quot;headerlink&quot; title=&quot;版本缺点&quot;&gt;&lt;/a&gt;版本缺点&lt;/h2&gt;&lt;p&gt;1.支持的动态背景就一个，其他的难搞&lt;/p&gt;
@@ -116,7 +175,7 @@
     <link href="http://example.com/2021/07/26/4-2-pei-zhi-7-8/"/>
     <id>http://example.com/2021/07/26/4-2-pei-zhi-7-8/</id>
     <published>2021-07-26T15:18:11.000Z</published>
-    <updated>2021-07-26T15:21:46.609Z</updated>
+    <updated>2021-07-28T07:28:06.416Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;由于下载的版本多，所以…以下关于7-8&quot;&gt;&lt;a href=&quot;#由于下载的版本多，所以…以下关于7-8&quot; class=&quot;headerlink&quot; title=&quot;由于下载的版本多，所以…以下关于7.8&quot;&gt;&lt;/a&gt;由于下载的版本多，所以…以下关于7.8&lt;/h1&gt;&lt;h2 id=&quot;版本缺点&quot;&gt;&lt;a href=&quot;#版本缺点&quot; class=&quot;headerlink&quot; title=&quot;版本缺点&quot;&gt;&lt;/a&gt;版本缺点&lt;/h2&gt;&lt;p&gt;1.对于目录toc的支持不是很好&lt;/p&gt;
@@ -125,6 +184,8 @@
     
     
     
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -132,7 +193,7 @@
     <link href="http://example.com/2021/07/26/4-1-pei-zhi-next5-1-4/"/>
     <id>http://example.com/2021/07/26/4-1-pei-zhi-next5-1-4/</id>
     <published>2021-07-26T15:17:55.000Z</published>
-    <updated>2021-07-27T09:21:57.190Z</updated>
+    <updated>2021-07-28T07:27:52.656Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;由于下载的版本多，所以…以下关于5-1-4&quot;&gt;&lt;a href=&quot;#由于下载的版本多，所以…以下关于5-1-4&quot; class=&quot;headerlink&quot; title=&quot;由于下载的版本多，所以…以下关于5.1.4&quot;&gt;&lt;/a&gt;由于下载的版本多，所以…以下关于5.1.4&lt;/h1&gt;&lt;h2 id=&quot;版本缺点&quot;&gt;&lt;a href=&quot;#版本缺点&quot; class=&quot;headerlink&quot; title=&quot;版本缺点&quot;&gt;&lt;/a&gt;版本缺点&lt;/h2&gt;&lt;p&gt;官方文档&lt;/p&gt;
@@ -145,6 +206,8 @@
     
     
     
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -152,7 +215,7 @@
     <link href="http://example.com/2021/07/26/2-4-xin-ban-ben-pei-zhi/"/>
     <id>http://example.com/2021/07/26/2-4-xin-ban-ben-pei-zhi/</id>
     <published>2021-07-26T08:00:34.000Z</published>
-    <updated>2021-07-26T15:15:04.860Z</updated>
+    <updated>2021-07-28T07:25:39.458Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;增加配置&quot;&gt;&lt;a href=&quot;#增加配置&quot; class=&quot;headerlink&quot; title=&quot;增加配置&quot;&gt;&lt;/a&gt;增加配置&lt;/h1&gt;&lt;h2 id=&quot;1-添加右上角github&quot;&gt;&lt;a href=&quot;#1-添加右上角github&quot; class=&quot;headerlink&quot; title=&quot;1.添加右上角github&quot;&gt;&lt;/a&gt;1.添加右上角github&lt;/h2&gt;&lt;p&gt;文件themes/next/layout/_layout.swig&lt;/p&gt;
@@ -172,6 +235,8 @@
     
     
     
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -179,7 +244,7 @@
     <link href="http://example.com/2021/07/26/3.3-cha-jian-search/"/>
     <id>http://example.com/2021/07/26/3.3-cha-jian-search/</id>
     <published>2021-07-26T07:02:35.000Z</published>
-    <updated>2021-07-25T16:22:20.373Z</updated>
+    <updated>2021-07-28T07:26:53.347Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;插件hexo-generator-search&quot;&gt;&lt;a href=&quot;#插件hexo-generator-search&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-generator-search&quot;&gt;&lt;/a&gt;插件hexo-generator-search&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-generator-search --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -192,6 +257,8 @@
     
     
     
+    
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
@@ -228,7 +295,7 @@
     <link href="http://example.com/2021/07/26/1-yaml-yu-fa/"/>
     <id>http://example.com/2021/07/26/1-yaml-yu-fa/</id>
     <published>2021-07-26T05:55:36.000Z</published>
-    <updated>2021-07-27T01:34:24.939Z</updated>
+    <updated>2021-07-28T07:23:05.792Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;yaml语法&quot;&gt;&lt;a href=&quot;#yaml语法&quot; class=&quot;headerlink&quot; title=&quot;yaml语法&quot;&gt;&lt;/a&gt;yaml语法&lt;/h1&gt;&lt;h2 id=&quot;1-yaml介绍&quot;&gt;&lt;a href=&quot;#1-yaml介绍&quot; class=&quot;headerlink&quot; title=&quot;1.yaml介绍&quot;&gt;&lt;/a&gt;1.yaml介绍&lt;/h2&gt;&lt;ul&gt;
@@ -280,7 +347,7 @@
     <link href="http://example.com/2021/07/26/2-2-zhu-ti-next-pei-zhi-geng-xin-shi-jian/"/>
     <id>http://example.com/2021/07/26/2-2-zhu-ti-next-pei-zhi-geng-xin-shi-jian/</id>
     <published>2021-07-26T04:08:52.000Z</published>
-    <updated>2021-07-26T15:16:51.199Z</updated>
+    <updated>2021-07-28T07:25:07.680Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;新版本废弃&quot;&gt;&lt;a href=&quot;#新版本废弃&quot; class=&quot;headerlink&quot; title=&quot;新版本废弃&quot;&gt;&lt;/a&gt;新版本废弃&lt;/h1&gt;&lt;h1 id=&quot;配置更新时间-updated（适用于5-1-4）&quot;&gt;&lt;a href=&quot;#配置更新时间-updated（适用于5-1-4）&quot; class=&quot;headerlink&quot; title=&quot;配置更新时间 updated（适用于5.1.4）&quot;&gt;&lt;/a&gt;配置更新时间 updated（适用于5.1.4）&lt;/h1&gt;&lt;p&gt;1.修改/themes/next/layout/_macro/post.swig文件&lt;/p&gt;
@@ -293,6 +360,10 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -300,7 +371,7 @@
     <link href="http://example.com/2021/07/26/3-7-cha-jian-toc-mu-lu/"/>
     <id>http://example.com/2021/07/26/3-7-cha-jian-toc-mu-lu/</id>
     <published>2021-07-26T03:59:54.000Z</published>
-    <updated>2021-07-26T07:57:36.060Z</updated>
+    <updated>2021-07-28T07:26:12.501Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;插件TOC目录&quot;&gt;&lt;a href=&quot;#插件TOC目录&quot; class=&quot;headerlink&quot; title=&quot;插件TOC目录&quot;&gt;&lt;/a&gt;插件TOC目录&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;npm install hexo-toc –save&lt;/p&gt;
@@ -316,6 +387,8 @@
     
     
     
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
+    
   </entry>
   
   <entry>
@@ -323,7 +396,7 @@
     <link href="http://example.com/2021/07/26/2-2-zhu-ti-next-pei-zhi/"/>
     <id>http://example.com/2021/07/26/2-2-zhu-ti-next-pei-zhi/</id>
     <published>2021-07-26T01:56:01.000Z</published>
-    <updated>2021-07-26T15:16:34.740Z</updated>
+    <updated>2021-07-28T07:25:24.098Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;p&gt;参考&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot;&gt;开始使用 - NexT 使用文档 (iissnan.com)&lt;/a&gt;&lt;/p&gt;
@@ -343,6 +416,8 @@
     
     
     
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -350,7 +425,7 @@
     <link href="http://example.com/2021/07/26/2-1-zhu-ti-next/"/>
     <id>http://example.com/2021/07/26/2-1-zhu-ti-next/</id>
     <published>2021-07-26T01:41:28.000Z</published>
-    <updated>2021-07-26T15:15:55.596Z</updated>
+    <updated>2021-07-28T07:25:27.620Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;主题next–请先阅读2-3的内容&quot;&gt;&lt;a href=&quot;#主题next–请先阅读2-3的内容&quot; class=&quot;headerlink&quot; title=&quot;主题next–请先阅读2.3的内容&quot;&gt;&lt;/a&gt;主题next–请先阅读2.3的内容&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;在根目录执行&lt;/p&gt;
@@ -367,6 +442,8 @@
     
     
     
+    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
+    
   </entry>
   
   <entry>
@@ -374,7 +451,7 @@
     <link href="http://example.com/2021/07/26/1.5-xin-jian-fen-lei/"/>
     <id>http://example.com/2021/07/26/1.5-xin-jian-fen-lei/</id>
     <published>2021-07-25T16:44:22.000Z</published>
-    <updated>2021-07-26T05:11:22.166Z</updated>
+    <updated>2021-07-28T07:18:16.788Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;新建分类&quot;&gt;&lt;a href=&quot;#新建分类&quot; class=&quot;headerlink&quot; title=&quot;新建分类&quot;&gt;&lt;/a&gt;新建分类&lt;/h1&gt;&lt;h2 id=&quot;新建分类-categories-页&quot;&gt;&lt;a href=&quot;#新建分类-categories-页&quot; class=&quot;headerlink&quot; title=&quot;新建分类 categories 页&quot;&gt;&lt;/a&gt;新建分类 categories 页&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new page &lt;span class=&quot;string&quot;&gt;&quot;categories&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -391,6 +468,8 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
   </entry>
   
   <entry>
@@ -398,7 +477,7 @@
     <link href="http://example.com/2021/07/26/3.6emoji-biao-qing/"/>
     <id>http://example.com/2021/07/26/3.6emoji-biao-qing/</id>
     <published>2021-07-25T16:29:16.000Z</published>
-    <updated>2021-07-25T16:34:32.573Z</updated>
+    <updated>2021-07-28T07:27:39.463Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;插件hexo-filter-github-emojis&quot;&gt;&lt;a href=&quot;#插件hexo-filter-github-emojis&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-filter-github-emojis&quot;&gt;&lt;/a&gt;插件hexo-filter-github-emojis&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-filter-github-emojis --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -413,6 +492,8 @@
     
     
     
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
+    
   </entry>
   
   <entry>
@@ -420,7 +501,7 @@
     <link href="http://example.com/2021/07/26/3.5-cha-jian-zhong-wen-zhuan-pin-yin/"/>
     <id>http://example.com/2021/07/26/3.5-cha-jian-zhong-wen-zhuan-pin-yin/</id>
     <published>2021-07-25T16:16:08.000Z</published>
-    <updated>2021-07-25T16:30:23.243Z</updated>
+    <updated>2021-07-28T07:27:26.262Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;插件hexo-permalink-pinyin&quot;&gt;&lt;a href=&quot;#插件hexo-permalink-pinyin&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-permalink-pinyin&quot;&gt;&lt;/a&gt;插件hexo-permalink-pinyin&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm i hexo-permalink-pinyin --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -434,6 +515,8 @@
     
     
     
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
+    
   </entry>
   
   <entry>
@@ -441,7 +524,7 @@
     <link href="http://example.com/2021/07/26/3.4-cha-jian-ding-yue-rss/"/>
     <id>http://example.com/2021/07/26/3.4-cha-jian-ding-yue-rss/</id>
     <published>2021-07-25T16:15:47.000Z</published>
-    <updated>2021-07-25T16:30:36.946Z</updated>
+    <updated>2021-07-28T07:27:04.490Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;插件-hexo-generator-feed&quot;&gt;&lt;a href=&quot;#插件-hexo-generator-feed&quot; class=&quot;headerlink&quot; title=&quot;插件 hexo-generator-feed&quot;&gt;&lt;/a&gt;插件 hexo-generator-feed&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -456,47 +539,7 @@
     
     
     
-  </entry>
-  
-  <entry>
-    <title>1.4基础写作</title>
-    <link href="http://example.com/2021/07/24/1.4-ji-chu-xie-zuo/"/>
-    <id>http://example.com/2021/07/24/1.4-ji-chu-xie-zuo/</id>
-    <published>2021-07-24T07:12:50.000Z</published>
-    <updated>2021-07-25T15:51:14.717Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;写作&quot;&gt;&lt;a href=&quot;#写作&quot; class=&quot;headerlink&quot; title=&quot;写作&quot;&gt;&lt;/a&gt;写作&lt;/h1&gt;&lt;h2 id=&quot;1-模板&quot;&gt;&lt;a href=&quot;#1-模板&quot; class=&quot;headerlink&quot; title=&quot;1.模板&quot;&gt;&lt;/a&gt;1.模板&lt;/h2&gt;&lt;p&gt;文件夹/scaffolds/ 下配置相对应布局的模板&lt;/p&gt;
-&lt;h2 id=&quot;2-格式&quot;&gt;&lt;a href=&quot;#2-格式&quot; class=&quot;headerlink&quot; title=&quot;2.格式&quot;&gt;&lt;/a&gt;2.格式&lt;/h2&gt;&lt;p&gt;Hexo 支持以任何格式书写文章，只要安装了相应的渲染插件。&lt;/p&gt;
-&lt;p&gt;例如，Hexo 默认安装了 &lt;code&gt;hexo-renderer-marked&lt;/code&gt; 和 &lt;code&gt;hexo-renderer-ejs&lt;/code&gt;，因此你不仅可以用 Markdown 写作，你还可以用 EJS 写作。如果你安装了 &lt;code&gt;hexo-renderer-pug&lt;/code&gt;，你甚至可以用 Pug 模板语言书写文章。&lt;/p&gt;
-&lt;p&gt;只需要将文章的扩展名从 &lt;code&gt;md&lt;/code&gt; 改成 &lt;code&gt;ejs&lt;/code&gt;，Hexo 就会使用 &lt;code&gt;hexo-renderer-ejs&lt;/code&gt; 渲染这个文件，其他格式同理。&lt;/p&gt;
-&lt;h2 id=&quot;3-分类和标签&quot;&gt;&lt;a href=&quot;#3-分类和标签&quot; class=&quot;headerlink&quot; title=&quot;3.分类和标签&quot;&gt;&lt;/a&gt;3.分类和标签&lt;/h2&gt;&lt;p&gt;分类具有顺序性和层次性&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;categories:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- [Diary, PlayStation]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>3.2插件RSS</title>
-    <link href="http://example.com/2021/07/24/3.2-cha-jian-rss/"/>
-    <id>http://example.com/2021/07/24/3.2-cha-jian-rss/</id>
-    <published>2021-07-24T07:02:35.000Z</published>
-    <updated>2021-07-25T16:07:52.944Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;插件hexo-migrator-rss&quot;&gt;&lt;a href=&quot;#插件hexo-migrator-rss&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-migrator-rss&quot;&gt;&lt;/a&gt;插件hexo-migrator-rss&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-migrator-rss --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;从RSS迁移文章&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo migrate rss &amp;lt;source&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;code&gt;source&lt;/code&gt; 是文件路径或网址&lt;/p&gt;
-&lt;p&gt;感觉自己用不上，就算了&lt;/p&gt;
-</summary>
-    
-    
-    
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
