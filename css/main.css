@@ -3010,6 +3010,17 @@ mark.search-keyword {
     padding: 10px 12px;
   }
 }
+link一行显示,
+.links-of-blogroll-item {
+  float: left;
+  padding: 1em;
+  list-style: none;
+}
+.links-of-blogroll-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
 .widget-title {
   margin: 10px 0 10px;
 }
