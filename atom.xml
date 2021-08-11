@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-04T05:07:16.222Z</updated>
+  <updated>2021-08-05T09:23:53.871Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,89 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1.0wordpress的基本配置</title>
+    <link href="http://example.com/2021/08/05/1-0wordpress-de-ji-ben-pei-zhi/"/>
+    <id>http://example.com/2021/08/05/1-0wordpress-de-ji-ben-pei-zhi/</id>
+    <published>2021-08-05T03:58:59.000Z</published>
+    <updated>2021-08-05T09:23:53.871Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;p&gt;官方文档：&lt;a href=&quot;https://cn.wordpress.org/support/&quot;&gt; WordPress.org 简体中文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不能用，好久前收录的&lt;a href=&quot;https://codex.wordpress.org/zh-cn:Main_Page&quot;&gt;zh-cn:WordPress 官方中文文档 « WordPress Codex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;phpstudy安装：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Apache:2.4.39&lt;/th&gt;
+&lt;th&gt;80&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Mysql:8.0.12&lt;/td&gt;
+&lt;td&gt;3308&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Php:7.34&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;后台：&lt;a href=&quot;http://localhost/wordpress/wp-login.php&quot;&gt;登录 –WordPress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;账号：admin1-3&lt;/p&gt;
+&lt;p&gt;密码：1-9&lt;/p&gt;
+&lt;p&gt;三大件：仪表盘，主题，插件&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="wordpress" scheme="http://example.com/categories/wordpress/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/wordpress/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="配置" scheme="http://example.com/categories/wordpress/%E7%BD%91%E7%AB%99/%E9%85%8D%E7%BD%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.0Z_blog的基本配置</title>
+    <link href="http://example.com/2021/08/05/1-0z-blog-de-ji-ben-pei-zhi/"/>
+    <id>http://example.com/2021/08/05/1-0z-blog-de-ji-ben-pei-zhi/</id>
+    <published>2021-08-05T02:33:26.000Z</published>
+    <updated>2021-08-05T04:40:33.990Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;div class=&quot;hbe hbe-container&quot; id=&quot;hexo-blog-encrypt&quot; data-wpm=&quot;Oh, this is an invalid password. Check and try again, please.&quot; data-whm=&quot;OOPS, these decrypted content may changed, but you can still have a look.&quot;&gt;
+  &lt;script id=&quot;hbeData&quot; type=&quot;hbeData&quot; data-hmacdigest=&quot;e522989ac6e2df66c3dad797b7fadad826c297fa8c2faa04767d0023a176dc7b&quot;&gt;0687979fc851c4ae305e8c842faa1c45781a7e50c615c0f1a4cef36104323700d7558b02ae3161b1e835bc6fa3b4d42ecfdaf150cd620f75313400228bf8667da17d83dd31a3ee54611129365a989891af66c9904aa8ab36d27192f939eecdeaa762a19ad11c127b96ca3b9ddfa2fa677d2855e55e59b5797e3c103e0f8d1b6483716ecadb60d11380b989b82b6d8a8e72807d2ee3dc6db1f9b3fb2a6b40416a39c117b8cb769dbb986787da23a70eb84e604534ae9d0364fc89785224c6a9cd48dda0373aa92ba5da8cb3bcaeec2fa54138e9db809914ead0993dd3822b640d9ac906de9ce3cdb84366c129afee630fdd3828547bf6f37d5ea5e0b2c9862c5322ea9a405bcf69f48c45d2f15335b5edce7003bbbac2a9d27f7f475e41e77af36482d47d85cef4251a2b5b110dfdc5bfa5313a11f685c923898c9fdea950ad799a81858b730700eacf6585abbe5f1f2e2d1284bef94a507e8b1c10f6c7a19d9651a8726edfbc095ceb8019b3f437b4998cdad64dc0cbab062e3058210de28ac78c8b048fb3a0ea843ce1d340a887231bc730d24b4a25ad127a2521a1095375f603752c6d7f41054a2e9d0ab0e35b058f446472e7136a6923a6b4ea4f1d2f253ade4967c0d1fa89669f75c6e6cf5e9e5ee6e31ec75b06b452fbba04abacf4d8c55813597132ffff71890d0d23bfa1870d1a7f3125defa59be2ae56e3aadd0ed66de108de5c68bcbbd8c5a509ae081002554bdf0397ac6a285ba56ba65b0854e0aa0df2a973199ca2a05027e9ad61917d1d26df24abd96016517e161359632e18e6b13de62cc0774d8d24b6be49efbc99f5443a464ea363559acccec4890a0d137298e50aa4c30abd4b30bc8918bd35d1fb3d9ab6521c274a45e699622513464ea243da82ee31517e16219c54936742f762d0cb3e6aab5a24e6b48d8481e1c9b2e605316db56eb56063b26e72cc5ca2de9bc507f5cbe1b644040b00dc884ac6cf86e62816ad9e0f16e64219151722ceb104908d8104a053ebbcc33289c9ee6139943cba2c49ffd948704895a7745fb161b50ec8a8504811ead9c8e915130d6516c6130e1a212704f2ec857477041aefc57a80c2d593ca0af1eff42014c78e685413916a22cbefb3c820dcf46e6bbab301cf5c6e01b1a126b09b4eb66861b6269eee08a6444a781ec669bfbabae247e029f4d6c2d122644111157af9c009d3451f75a481b169f11e5364c935e1dae9d70a44a0d10f41509129b9f930fd699a8c4ded381b2236a1edc9dc1eff6ad0114aa2cdb78eb125b75974d3a1bb7f1e0d05e17e8608b958b18553219eee989828b86f659bc28b08c8d7e534731efc93e4b34d876bb56a872674c7f0e730b4610f30b0c969d0fce0852662c2e815a2350ab8e74393fec11c476caed2b9c784bd202c4696158c185dbac90c1d8135bb4364e72e8a079c26714cb0245927bdee9cb5320b0abca7f33650269d4602a04e683742857412762e41ce6d78787740c360fd6dea150d1f88b1202dc860a95ffc5e91c45c654c6a8c429da7ee376794f9f1c2e5b920c20d48b88b9711844ee65f092cf70a994ae61de6a763b15951072f9ddfd38f5a32b5869de4337d9205890f7be4a7eca596e8282b55ceadc1b639b8637453403cbfaeab5b4d6dee5f0d8e467a168a16f537d599163e0bc11995556bbb7ca9732f24a88ba0a8f4762caf12747127255725e9c80ce57d6b72ed34bd527d1c27f71984ce642c87c9a37e29b174ee506135d2c8d98a14ab569b0bb672f132acf1706b3f17c4eecb3b13150856eb5ecd4055340b3affb5043e9355e57abbe6ceee46ff7a848448c78463d696fc93c783dbb3ac043e1e59d67a6f7f4afae9ec7520d0e2f2a48087d83cc090a25334b7aef8984797693c41e126be354ae645fcf989567eca80b126801d916289b621a03a990c68a042e69d62885ba78912d11e8b4e1f20ac968a31c032d6647fc75ad825523aa9eec6a21a090078c1fb51b859797553b598d694a0b1d51e136c5027561897b715eb2f497e37d2340300760cb1db430dc3ca0faaec712032e2b04d846a0a75e8af53cfca594275c8420dcc4f4e3599333ee8da36847f96ea689ecfee7279f6396379977f5873407c036446f7f8726a56329acd24b56af6b60acd024c3746883d383ed150569b78e5b99a5571e3ae3139dacd6c3a35f16a0172172d37836501eaa57fc80b799a1088cd753f8eb2fdacdfdb9d1fc542dd930fc290e9d3c3c80953fc408af665eb50757e9e9cf0368a81bc845cec4e148861435261c2e9ac2ab15f4c14778013e948c76e8b7c8fc46ebc40d8338a14421c35123711ce37aebe94163f205e3304b8df7b5c62fcd903f6478dfdbe2879b382f58feeb30542edbfdd9d2deb46b84dac7d7c5d98df321c607e762a9b98bf50f3be8a05040a5e60059b65ec8faaf708dc26559a3335a398c9810baf60c8ab02e27a4b75ee27fb0e355c49bcfcd0bce88272ac8c19fba59170bae9bc05c0e979d0ca18afdb4a6fc23792af9b0854e30db3e88209a71b408fdb42fbd2cc2f2327601d306750e348a61e477ddcfc73d575bd72e115ad241347d740dcb9cff71069a1cd9d739fbde3d8140b8847b974dd20b53d92be63abb9ca7b43e046a4031e9a3fdd881601ae5b431158efcf62ff148136d4fb6a431c382018547aad80369b8e918f5fb8cb1dff3a029061609a984edf94fd6c665fe4b90a5d95334f714b0e8fed219a5ce9c9082e3338ca1&lt;/script&gt;
+  &lt;div class=&quot;hbe hbe-content&quot;&gt;
+    &lt;div class=&quot;hbe hbe-input hbe-input-default&quot;&gt;
+      &lt;input class=&quot;hbe hbe-input-field hbe-input-field-default&quot; type=&quot;password&quot; id=&quot;hbePass&quot;&gt;
+      &lt;label class=&quot;hbe hbe-input-label hbe-input-label-default&quot; for=&quot;hbePass&quot;&gt;
+        &lt;span class=&quot;hbe hbe-input-label-content hbe-input-label-content-default&quot;&gt;请输入密码&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script data-pjax src=&quot;/lib/hbe.js&quot;&gt;&lt;/script&gt;&lt;link href=&quot;/css/hbe.style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</summary>
+    
+    
+    
+    <category term="Z_blog" scheme="http://example.com/categories/Z-blog/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/Z-blog/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="配置" scheme="http://example.com/categories/Z-blog/%E7%BD%91%E7%AB%99/%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Z_blog" scheme="http://example.com/tags/Z-blog/"/>
+    
+  </entry>
   
   <entry>
     <title>1.2python爬虫scrapy_图片下载</title>
@@ -83,7 +166,7 @@
     <link href="http://example.com/2021/08/03/0-0hexo-de-ji-ben-cao-zuo/"/>
     <id>http://example.com/2021/08/03/0-0hexo-de-ji-ben-cao-zuo/</id>
     <published>2021-08-03T13:12:23.000Z</published>
-    <updated>2021-08-03T13:42:47.711Z</updated>
+    <updated>2021-08-05T06:43:13.193Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#基本操作&quot; class=&quot;headerlink&quot; title=&quot;基本操作&quot;&gt;&lt;/a&gt;基本操作&lt;/h1&gt;&lt;p&gt;用的不是很多，也不是很熟练，一时半会想不起来，所以写这篇文章，为了以后方便使用&lt;/p&gt;
@@ -98,7 +181,7 @@
 &lt;li&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/li&gt;
 &lt;li&gt;hexo d 部署网站&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;md操作&quot;&gt;&lt;a href=&quot;#md操作&quot; class=&quot;headerlink&quot; title=&quot;md操作&quot;&gt;&lt;/a&gt;md操作&lt;/h2&gt;</summary>
+&lt;h2 id=&quot;md操作&quot;&gt;&lt;a href=&quot;#md操作&quot; class=&quot;headerlink&quot; title=&quot;md操作&quot;&gt;&lt;/a&gt;md操作&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;引用&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* l&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -120,7 +203,7 @@
     <link href="http://example.com/2021/07/31/1-1-liu-lan-qi/"/>
     <id>http://example.com/2021/07/31/1-1-liu-lan-qi/</id>
     <published>2021-07-30T16:01:56.000Z</published>
-    <updated>2021-08-03T07:01:43.120Z</updated>
+    <updated>2021-08-11T01:31:18.742Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;浏览器的介绍&quot;&gt;&lt;a href=&quot;#浏览器的介绍&quot; class=&quot;headerlink&quot; title=&quot;浏览器的介绍&quot;&gt;&lt;/a&gt;浏览器的介绍&lt;/h1&gt;&lt;h2 id=&quot;1-功能&quot;&gt;&lt;a href=&quot;#1-功能&quot; class=&quot;headerlink&quot; title=&quot;1.功能&quot;&gt;&lt;/a&gt;1.功能&lt;/h2&gt;&lt;p&gt;搜索：搜索引擎，百度，搜狗，谷歌，360等等&lt;/p&gt;
@@ -133,6 +216,8 @@
     
     
     
+    
+    <category term="浏览器" scheme="http://example.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
   </entry>
   
@@ -438,12 +523,12 @@ snow.start();
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;  &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
 
-        &lt;div id=&quot;aplayer-KslNcLGW&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-rTxxSQDX&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-KslNcLGW&quot;),
+            element: document.getElementById(&quot;aplayer-rTxxSQDX&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -485,11 +570,11 @@ snow.start();
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-echarts&quot;&gt;&lt;a href=&quot;#插件hexo-tag-echarts&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-echarts&quot;&gt;&lt;/a&gt;插件hexo-tag-echarts&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-echarts3 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts7293&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts4264&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
 &lt;script src=&quot;https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById(&#39;echarts7293&#39;));
+        var myChart = echarts.init(document.getElementById(&#39;echarts4264&#39;));
         // 指定图表的配置项和数据
         var option = {
     tooltip : {
@@ -763,73 +848,6 @@ snow.start();
     
     
     <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.4建立图册</title>
-    <link href="http://example.com/2021/07/27/4.4-jian-li-tu-ce/"/>
-    <id>http://example.com/2021/07/27/4.4-jian-li-tu-ce/</id>
-    <published>2021-07-27T02:44:46.000Z</published>
-    <updated>2021-07-31T07:05:50.966Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;建立图册&quot;&gt;&lt;a href=&quot;#建立图册&quot; class=&quot;headerlink&quot; title=&quot;建立图册&quot;&gt;&lt;/a&gt;建立图册&lt;/h1&gt;&lt;p&gt;原理：就是html写道md文档中，完后就能显示了&lt;/p&gt;
-&lt;p&gt;网页显示，弄一个原图文件夹（/img）和缩略图文件夹(img/s)&lt;/p&gt;
-&lt;p&gt;来个示例&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;这里相册名字比较好&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;.post-block {&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 有些人使用了透明背景，为了图片好看，这里改成不透明 --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;	opacity: 1;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;********************************************************************&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;gallery-page&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img-list&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img-column&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img/原图1.jpg&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;_Blank&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img/s/缩略图1.jpg&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img/原图2‬.jpg&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;_Blank&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;img/s/原图2‬.jpg&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;********************************************************************&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;配上一个css样式&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.gallery-page&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;margin-top&lt;/span&gt;: -&lt;span class=&quot;number&quot;&gt;50px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;opacity&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.img-list&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.gallery-list&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: flex;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;flex-direction&lt;/span&gt;: row;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;flex-wrap&lt;/span&gt;: nowrap;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;align-items&lt;/span&gt;: flex-start;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.img-column&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: flex;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;flex-direction&lt;/span&gt;: column-reverse;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.img-column&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.gallery-column&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;border-bottom&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.gallery-item&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;margin-bottom&lt;/span&gt;: -&lt;span class=&quot;number&quot;&gt;50px&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.gallery-item&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;margin&lt;/span&gt;: -&lt;span class=&quot;number&quot;&gt;25px&lt;/span&gt; auto -&lt;span class=&quot;number&quot;&gt;10px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;max-width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;50%&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;text-align&lt;/span&gt;: center;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;15px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: $black-deep;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;background&lt;/span&gt;: &lt;span class=&quot;built_in&quot;&gt;rgba&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;255&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;255&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;255&lt;/span&gt;,.&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;border-radius&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;7px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt; solid $black-deep;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;box-shadow&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8px&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;20px&lt;/span&gt; -&lt;span class=&quot;number&quot;&gt;8px&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;rgba&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,.&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.posts-expand&lt;/span&gt; &lt;span class=&quot;selector-class&quot;&gt;.post-body&lt;/span&gt; &lt;span class=&quot;selector-class&quot;&gt;.gallery-column&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;img&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;250px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;300px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;object-fit&lt;/span&gt;: cover;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@media&lt;/span&gt; (&lt;span class=&quot;attribute&quot;&gt;max-width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;767px&lt;/span&gt;){&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;selector-class&quot;&gt;.gallery-item&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;attribute&quot;&gt;min-width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;75px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;13px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;这个css自我感觉不怎么好用，会的请在next/source/css/main.style（next8.6.1）中自行添加.&lt;br&gt;/source/_data/styles.styl这里也可以加css&lt;/p&gt;
-</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="主题" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="next" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/"/>
-    
-    <category term="配置" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/%E9%85%8D%E7%BD%AE/"/>
-    
-    
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
-    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.3配置8.6.1</title>
-    <link href="http://example.com/2021/07/26/4.3-pei-zhi-8.6.1/"/>
-    <id>http://example.com/2021/07/26/4.3-pei-zhi-8.6.1/</id>
-    <published>2021-07-26T15:18:26.000Z</published>
-    <updated>2021-07-31T08:01:26.553Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;由于下载的版本多，所以…以下关于8-6-1&quot;&gt;&lt;a href=&quot;#由于下载的版本多，所以…以下关于8-6-1&quot; class=&quot;headerlink&quot; title=&quot;由于下载的版本多，所以…以下关于8.6.1&quot;&gt;&lt;/a&gt;由于下载的版本多，所以…以下关于8.6.1&lt;/h1&gt;&lt;h2 id=&quot;版本缺点&quot;&gt;&lt;a href=&quot;#版本缺点&quot; class=&quot;headerlink&quot; title=&quot;版本缺点&quot;&gt;&lt;/a&gt;版本缺点&lt;/h2&gt;&lt;p&gt;1.支持的动态背景就一个，其他的难搞&lt;/p&gt;
-&lt;p&gt;2.代码折叠，没弄成&lt;/p&gt;
-&lt;h1 id=&quot;2-设置&quot;&gt;&lt;a href=&quot;#2-设置&quot; class=&quot;headerlink&quot; title=&quot;2.设置&quot;&gt;&lt;/a&gt;2.设置&lt;/h1&gt;&lt;h2 id=&quot;1-进度条&quot;&gt;&lt;a href=&quot;#1-进度条&quot; class=&quot;headerlink&quot; title=&quot;1.进度条&quot;&gt;&lt;/a&gt;1.进度条&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# Reading progress bar&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;reading_progress:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Available values: left | right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  start_at: left&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Available values: top | bottom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  position: bottom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  reversed: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  color: &quot;#37c6c0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;2-回到顶部&quot;&gt;&lt;a href=&quot;#2-回到顶部&quot; class=&quot;headerlink&quot; title=&quot;2.回到顶部&quot;&gt;&lt;/a&gt;2.回到顶部&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;back2top:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Back to top in sidebar.回到侧边栏的顶部&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  sidebar: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Scroll percent label in b2t button.滚动b2t按钮中的百分比标签。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  scrollpercent: true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="主题" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="next" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/"/>
-    
-    <category term="版本" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/%E7%89%88%E6%9C%AC/"/>
-    
-    
-    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
-    
-    <category term="md语法" scheme="http://example.com/tags/md%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
