@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-05T09:23:53.871Z</updated>
+  <updated>2021-09-02T06:57:09.034Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,172 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1.1wordpress的基础设置</title>
+    <link href="http://example.com/2021/09/02/1-1wordpress-de-ji-chu-she-zhi/"/>
+    <id>http://example.com/2021/09/02/1-1wordpress-de-ji-chu-she-zhi/</id>
+    <published>2021-09-02T05:14:53.000Z</published>
+    <updated>2021-09-02T06:57:09.034Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;基础的配置&quot;&gt;&lt;a href=&quot;#基础的配置&quot; class=&quot;headerlink&quot; title=&quot;基础的配置&quot;&gt;&lt;/a&gt;基础的配置&lt;/h1&gt;&lt;p&gt;1.后台，外观，设置&lt;/p&gt;
+&lt;p&gt;对界面进行简单布局&lt;/p&gt;
+&lt;p&gt;2.&lt;/p&gt;
+</summary>
+    
+    
+    
+    <category term="wordpress" scheme="http://example.com/categories/wordpress/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/wordpress/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="配置" scheme="http://example.com/categories/wordpress/%E7%BD%91%E7%AB%99/%E9%85%8D%E7%BD%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.1QT错误警告</title>
+    <link href="http://example.com/2021/09/01/1-1qt-cuo-wu-jing-gao/"/>
+    <id>http://example.com/2021/09/01/1-1qt-cuo-wu-jing-gao/</id>
+    <published>2021-09-01T08:04:52.000Z</published>
+    <updated>2021-09-01T09:14:53.523Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;警告&quot;&gt;&lt;a href=&quot;#警告&quot; class=&quot;headerlink&quot; title=&quot;警告&quot;&gt;&lt;/a&gt;警告&lt;/h1&gt;&lt;p&gt;1.UnKnown Component.(M300)&lt;/p&gt;
+&lt;p&gt;解决（不一定能）：工具–QML/JS–重置代码模型&lt;/p&gt;
+&lt;p&gt;2.&lt;/p&gt;
+&lt;h1 id=&quot;错误&quot;&gt;&lt;a href=&quot;#错误&quot; class=&quot;headerlink&quot; title=&quot;错误&quot;&gt;&lt;/a&gt;错误&lt;/h1&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.0access命名</title>
+    <link href="http://example.com/2021/09/01/1.0access-ming-ming/"/>
+    <id>http://example.com/2021/09/01/1.0access-ming-ming/</id>
+    <published>2021-09-01T07:45:26.000Z</published>
+    <updated>2021-09-01T07:53:38.635Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;ACCESS-VBA-命名规范&quot;&gt;&lt;a href=&quot;#ACCESS-VBA-命名规范&quot; class=&quot;headerlink&quot; title=&quot;ACCESS VBA 命名规范&quot;&gt;&lt;/a&gt;ACCESS VBA 命名规范&lt;/h1&gt;&lt;p&gt;基本原则：变量名=属性+类型+对象描述&lt;/p&gt;
+&lt;p&gt;属性和类型为&lt;strong&gt;小写&lt;/strong&gt;前缀，对象描述为一个或多个英文单词或缩写，&lt;strong&gt;每个单词首字母大写&lt;/strong&gt;,中间不加分隔符。&lt;/p&gt;
+&lt;p&gt;示例： m_intEmployeeID 模块级私有整型变量&lt;/p&gt;
+&lt;p&gt;txtUserName 文本框对象&lt;/p&gt;
+&lt;p&gt;conUserGroupID 常量&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;基本规范&lt;/strong&gt;(建议使用)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特殊用途对象（属性）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;隐藏的系统对象&lt;/th&gt;
+&lt;th&gt;zh&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;显示的系统对象&lt;/td&gt;
+&lt;td&gt;zs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;编程方式创建的临时对象&lt;/td&gt;
+&lt;td&gt;zt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;对象的备份副本或暂时弃用对象&lt;/td&gt;
+&lt;td&gt;zz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</summary>
+    
+    
+    
+    <category term="office" scheme="http://example.com/categories/office/"/>
+    
+    <category term="access" scheme="http://example.com/categories/office/access/"/>
+    
+    <category term="基础" scheme="http://example.com/categories/office/access/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="office" scheme="http://example.com/tags/office/"/>
+    
+    <category term="‘access’" scheme="http://example.com/tags/%E2%80%98access%E2%80%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.0QT的基础</title>
+    <link href="http://example.com/2021/08/19/1.0qt-de-ji-chu/"/>
+    <id>http://example.com/2021/08/19/1.0qt-de-ji-chu/</id>
+    <published>2021-08-19T05:36:10.000Z</published>
+    <updated>2021-09-01T07:13:22.421Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;QT-16-186c-qt5-范例开发大全-pdf&quot;&gt;&lt;a href=&quot;#QT-16-186c-qt5-范例开发大全-pdf&quot; class=&quot;headerlink&quot; title=&quot;QT(16/186c++ qt5 范例开发大全.pdf)&quot;&gt;&lt;/a&gt;QT(16/186c++ qt5 范例开发大全.pdf)&lt;/h1&gt;&lt;p&gt;介绍：&lt;strong&gt;跨平台&lt;/strong&gt; &lt;em&gt;C++&lt;em&gt;&lt;strong&gt;图形用户界面&lt;/strong&gt;&lt;/em&gt;应用程序&lt;/em&gt;&lt;strong&gt;开发框架&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;跨平台：windows,linux&lt;/p&gt;
+&lt;p&gt;c++：面向对象， signals/slots 的安全类型（信号和槽）&lt;/p&gt;
+&lt;p&gt;图形用户界面：GUI&lt;/p&gt;
+&lt;p&gt;框架：模块化，丰富API，c++类&lt;/p&gt;
+&lt;p&gt;提供基于模板的 collections， serialization， file， I/O device， directory management， date/time 类。甚至还 包括正则表达式的处理功能,支持 2D/3D 图形渲染，支持 OpenGL。&lt;/p&gt;
+&lt;h2 id=&quot;QT开发准备&quot;&gt;&lt;a href=&quot;#QT开发准备&quot; class=&quot;headerlink&quot; title=&quot;QT开发准备&quot;&gt;&lt;/a&gt;QT开发准备&lt;/h2&gt;&lt;p&gt;Qt Creator:轻量级集成开发环境（IDE）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://example.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="QT" scheme="http://example.com/categories/%E7%BC%96%E7%A8%8B/QT/"/>
+    
+    <category term="Qwidget" scheme="http://example.com/categories/%E7%BC%96%E7%A8%8B/QT/Qwidget/"/>
+    
+    
+    <category term="C++" scheme="http://example.com/tags/C/"/>
+    
+    <category term="QT" scheme="http://example.com/tags/QT/"/>
+    
+    <category term="Qwidget" scheme="http://example.com/tags/Qwidget/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.2浏览器插件</title>
+    <link href="http://example.com/2021/08/11/1.2-liu-lan-qi-cha-jian/"/>
+    <id>http://example.com/2021/08/11/1.2-liu-lan-qi-cha-jian/</id>
+    <published>2021-08-11T01:30:51.000Z</published>
+    <updated>2021-08-19T05:21:37.929Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;扩展—-edge浏览器&quot;&gt;&lt;a href=&quot;#扩展—-edge浏览器&quot; class=&quot;headerlink&quot; title=&quot;扩展—-edge浏览器&quot;&gt;&lt;/a&gt;扩展—-edge浏览器&lt;/h1&gt;&lt;p&gt;扩展，插件 ，都是同一个意思，&lt;/p&gt;
+&lt;p&gt;自我的理解：通过css和js控制浏览器网页显示内容&lt;/p&gt;
+&lt;p&gt;edge，chrome，Firefox，都有自己独特的扩展&lt;/p&gt;
+&lt;h2 id=&quot;过滤内容（广告）—-uBlock-Origin&quot;&gt;&lt;a href=&quot;#过滤内容（广告）—-uBlock-Origin&quot; class=&quot;headerlink&quot; title=&quot;过滤内容（广告）—-uBlock Origin&quot;&gt;&lt;/a&gt;过滤内容（广告）—-uBlock Origin&lt;/h2&gt;&lt;p&gt;地址：&lt;a href=&quot;https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak&quot;&gt;uBlock Origin - Microsoft Edge Addons&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;过滤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;操作：有选择的对广告，新闻等不想看的内容进行过滤&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="浏览器" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="扩展" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BD%91%E7%AB%99/%E6%89%A9%E5%B1%95/"/>
+    
+    
+    <category term="浏览器" scheme="http://example.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="扩展" scheme="http://example.com/tags/%E6%89%A9%E5%B1%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>1.0wordpress的基本配置</title>
-    <link href="http://example.com/2021/08/05/1-0wordpress-de-ji-ben-pei-zhi/"/>
-    <id>http://example.com/2021/08/05/1-0wordpress-de-ji-ben-pei-zhi/</id>
+    <link href="http://example.com/2021/08/05/1.0wordpress-de-ji-ben-pei-zhi/"/>
+    <id>http://example.com/2021/08/05/1.0wordpress-de-ji-ben-pei-zhi/</id>
     <published>2021-08-05T03:58:59.000Z</published>
-    <updated>2021-08-05T09:23:53.871Z</updated>
+    <updated>2021-09-02T05:13:10.120Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;p&gt;官方文档：&lt;a href=&quot;https://cn.wordpress.org/support/&quot;&gt; WordPress.org 简体中文&lt;/a&gt;&lt;/p&gt;
@@ -67,8 +228,8 @@
   
   <entry>
     <title>1.0Z_blog的基本配置</title>
-    <link href="http://example.com/2021/08/05/1-0z-blog-de-ji-ben-pei-zhi/"/>
-    <id>http://example.com/2021/08/05/1-0z-blog-de-ji-ben-pei-zhi/</id>
+    <link href="http://example.com/2021/08/05/1.0z-blog-de-ji-ben-pei-zhi/"/>
+    <id>http://example.com/2021/08/05/1.0z-blog-de-ji-ben-pei-zhi/</id>
     <published>2021-08-05T02:33:26.000Z</published>
     <updated>2021-08-05T04:40:33.990Z</updated>
     
@@ -101,8 +262,8 @@
   
   <entry>
     <title>1.2python爬虫scrapy_图片下载</title>
-    <link href="http://example.com/2021/08/04/1-2python-pa-chong-scrapy-tu-pian-xia-zai/"/>
-    <id>http://example.com/2021/08/04/1-2python-pa-chong-scrapy-tu-pian-xia-zai/</id>
+    <link href="http://example.com/2021/08/04/1.2python-pa-chong-scrapy-tu-pian-xia-zai/"/>
+    <id>http://example.com/2021/08/04/1.2python-pa-chong-scrapy-tu-pian-xia-zai/</id>
     <published>2021-08-04T04:28:49.000Z</published>
     <updated>2021-08-04T05:07:16.222Z</updated>
     
@@ -132,8 +293,8 @@
   
   <entry>
     <title>1.1python爬虫scrapy</title>
-    <link href="http://example.com/2021/08/03/1-1python-pa-chong-scrapy/"/>
-    <id>http://example.com/2021/08/03/1-1python-pa-chong-scrapy/</id>
+    <link href="http://example.com/2021/08/03/1.1python-pa-chong-scrapy/"/>
+    <id>http://example.com/2021/08/03/1.1python-pa-chong-scrapy/</id>
     <published>2021-08-03T13:44:47.000Z</published>
     <updated>2021-08-04T04:26:47.480Z</updated>
     
@@ -163,18 +324,18 @@
   
   <entry>
     <title>0.0hexo的基本操作</title>
-    <link href="http://example.com/2021/08/03/0-0hexo-de-ji-ben-cao-zuo/"/>
-    <id>http://example.com/2021/08/03/0-0hexo-de-ji-ben-cao-zuo/</id>
+    <link href="http://example.com/2021/08/03/0.0hexo-de-ji-ben-cao-zuo/"/>
+    <id>http://example.com/2021/08/03/0.0hexo-de-ji-ben-cao-zuo/</id>
     <published>2021-08-03T13:12:23.000Z</published>
-    <updated>2021-08-05T06:43:13.193Z</updated>
+    <updated>2021-09-01T07:45:53.477Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#基本操作&quot; class=&quot;headerlink&quot; title=&quot;基本操作&quot;&gt;&lt;/a&gt;基本操作&lt;/h1&gt;&lt;p&gt;用的不是很多，也不是很熟练，一时半会想不起来，所以写这篇文章，为了以后方便使用&lt;/p&gt;
 &lt;h2 id=&quot;创建文件&quot;&gt;&lt;a href=&quot;#创建文件&quot; class=&quot;headerlink&quot; title=&quot;创建文件&quot;&gt;&lt;/a&gt;创建文件&lt;/h2&gt;&lt;p&gt;在hexo站点目录，执行git bash&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;hexo new  新文章名字&lt;/li&gt;
-&lt;li&gt;categories：类别属性，一半写三个分类，逐渐递进（categories: 后面又空格）&lt;/li&gt;
-&lt;li&gt;tags:标签，写两个左右就好（tags: 后面又空格）&lt;/li&gt;
+&lt;li&gt;categories：类别属性，一般写&lt;strong&gt;三个&lt;/strong&gt;分类，逐渐递进（categories: 后面又空格）&lt;/li&gt;
+&lt;li&gt;tags:标签，写&lt;strong&gt;两个&lt;/strong&gt;左右就好（tags: 后面又空格）&lt;/li&gt;
 &lt;li&gt;password：输入密码&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;打开站点&quot;&gt;&lt;a href=&quot;#打开站点&quot; class=&quot;headerlink&quot; title=&quot;打开站点&quot;&gt;&lt;/a&gt;打开站点&lt;/h2&gt;&lt;ol&gt;
@@ -200,10 +361,10 @@
   
   <entry>
     <title>1.1浏览器</title>
-    <link href="http://example.com/2021/07/31/1-1-liu-lan-qi/"/>
-    <id>http://example.com/2021/07/31/1-1-liu-lan-qi/</id>
+    <link href="http://example.com/2021/07/31/1.1-liu-lan-qi/"/>
+    <id>http://example.com/2021/07/31/1.1-liu-lan-qi/</id>
     <published>2021-07-30T16:01:56.000Z</published>
-    <updated>2021-08-11T01:31:18.742Z</updated>
+    <updated>2021-08-19T05:20:57.816Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;浏览器的介绍&quot;&gt;&lt;a href=&quot;#浏览器的介绍&quot; class=&quot;headerlink&quot; title=&quot;浏览器的介绍&quot;&gt;&lt;/a&gt;浏览器的介绍&lt;/h1&gt;&lt;h2 id=&quot;1-功能&quot;&gt;&lt;a href=&quot;#1-功能&quot; class=&quot;headerlink&quot; title=&quot;1.功能&quot;&gt;&lt;/a&gt;1.功能&lt;/h2&gt;&lt;p&gt;搜索：搜索引擎，百度，搜狗，谷歌，360等等&lt;/p&gt;
@@ -216,6 +377,12 @@
     
     
     
+    <category term="浏览器" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="基础" scheme="http://example.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BD%91%E7%AB%99/%E5%9F%BA%E7%A1%80/"/>
+    
     
     <category term="浏览器" scheme="http://example.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
@@ -223,8 +390,8 @@
   
   <entry>
     <title>1.1QQ的一些技巧</title>
-    <link href="http://example.com/2021/07/30/1-1qq-de-yi-xie-ji-qiao/"/>
-    <id>http://example.com/2021/07/30/1-1qq-de-yi-xie-ji-qiao/</id>
+    <link href="http://example.com/2021/07/30/1.1qq-de-yi-xie-ji-qiao/"/>
+    <id>http://example.com/2021/07/30/1.1qq-de-yi-xie-ji-qiao/</id>
     <published>2021-07-30T15:57:52.000Z</published>
     <updated>2021-07-30T16:01:23.183Z</updated>
     
@@ -523,12 +690,12 @@ snow.start();
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;  &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
 
-        &lt;div id=&quot;aplayer-rTxxSQDX&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-ngeUJlsO&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-rTxxSQDX&quot;),
+            element: document.getElementById(&quot;aplayer-ngeUJlsO&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -570,11 +737,11 @@ snow.start();
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-echarts&quot;&gt;&lt;a href=&quot;#插件hexo-tag-echarts&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-echarts&quot;&gt;&lt;/a&gt;插件hexo-tag-echarts&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-echarts3 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts4264&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts3548&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
 &lt;script src=&quot;https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById(&#39;echarts4264&#39;));
+        var myChart = echarts.init(document.getElementById(&#39;echarts3548&#39;));
         // 指定图表的配置项和数据
         var option = {
     tooltip : {
@@ -689,165 +856,6 @@ snow.start();
     
     
     <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.5新增分类</title>
-    <link href="http://example.com/2021/07/29/4.5-xin-zeng-fen-lei/"/>
-    <id>http://example.com/2021/07/29/4.5-xin-zeng-fen-lei/</id>
-    <published>2021-07-29T02:34:59.000Z</published>
-    <updated>2021-07-29T02:40:55.508Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;p&gt;在前面讲过创建categories，今天把所有的文章都添加了categories属性&lt;/p&gt;
-&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;没有跳转：&lt;/p&gt;
-&lt;p&gt; hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/p&gt;
-&lt;p&gt;重新清理执行一下&lt;/p&gt;
-&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink&quot; title=&quot;格式&quot;&gt;&lt;/a&gt;格式&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;categories:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  - hexo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  - 主题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  - next&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  - 配置&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;我是这样配置的，分级&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="主题" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="next" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/"/>
-    
-    <category term="配置" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/%E9%85%8D%E7%BD%AE/"/>
-    
-    
-    <category term="hexo-next" scheme="http://example.com/tags/hexo-next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.8插件hexo-helper-live2d</title>
-    <link href="http://example.com/2021/07/28/3.8-cha-jian-hexo-helper-live2d/"/>
-    <id>http://example.com/2021/07/28/3.8-cha-jian-hexo-helper-live2d/</id>
-    <published>2021-07-28T08:21:00.000Z</published>
-    <updated>2021-07-29T02:12:31.677Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-helper-live2d&quot;&gt;&lt;a href=&quot;#插件hexo-helper-live2d&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-helper-live2d&quot;&gt;&lt;/a&gt;插件hexo-helper-live2d&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;主要是一些二次元的任务（看板娘，面板娘…）&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install -save hexo-helper-live2d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;站点的配置文件中&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;live2d:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  scriptFrom: local&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginRootPath: live2dw/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginJsPath: lib/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  pluginModelPath: assets/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  tagMode: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  model:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    use: live2d-widget-model-wanko  #选择哪种模型&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  display: #放置位置和大小&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    position: right&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    width: 150&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    height: 300&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  mobile:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    show: false #是否在手机端显示&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;安装需要显示的模型&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install live2d-widget-model-wanko&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
-    <category term="插件" scheme="http://example.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.3配置8.6.1--md语法篇</title>
-    <link href="http://example.com/2021/07/28/4.3-pei-zhi-8-6-1-md-yu-fa-pian/"/>
-    <id>http://example.com/2021/07/28/4.3-pei-zhi-8-6-1-md-yu-fa-pian/</id>
-    <published>2021-07-28T08:17:15.000Z</published>
-    <updated>2021-07-29T02:20:56.876Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;md语法&quot;&gt;&lt;a href=&quot;#md语法&quot; class=&quot;headerlink&quot; title=&quot;md语法&quot;&gt;&lt;/a&gt;md语法&lt;/h1&gt;&lt;h3 id=&quot;1-配置note-tag（md的一个语法）&quot;&gt;&lt;a href=&quot;#1-配置note-tag（md的一个语法）&quot; class=&quot;headerlink&quot; title=&quot;1.配置note  tag（md的一个语法）&quot;&gt;&lt;/a&gt;1.配置note  tag（md的一个语法）&lt;/h3&gt;&lt;p&gt;Note标签通过在左边界使用特殊颜色划线，实现提醒功能。&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;  #  - simple    bootstrap callout old alert style. Default.引导调用旧提示样式。默认&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - modern    bootstrap callout new (v2-v3) alert style. 引导调用新（v2-v3）提示样式&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #              带背景的扁平callout样式，就像在Mozilla或StackOverflow上一样。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #  - disabled  disable all CSS styles import of note tag.禁用注释标记的所有CSS样式导入&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;note: &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  style: flat&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  icons: true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;flat:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/07/27/rK4tDUoAfc6VX3H.png&quot; alt=&quot;flat&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;simple:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/07/27/rVQYbB3euyX8sPR.png&quot; alt=&quot;simple&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;modern&lt;/strong&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="主题" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="next" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/"/>
-    
-    <category term="版本" scheme="http://example.com/categories/hexo/%E4%B8%BB%E9%A2%98/next/%E7%89%88%E6%9C%AC/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>6.1学习的内容</title>
-    <link href="http://example.com/2021/07/27/6.1-xue-xi-de-nei-rong/"/>
-    <id>http://example.com/2021/07/27/6.1-xue-xi-de-nei-rong/</id>
-    <published>2021-07-27T09:16:19.000Z</published>
-    <updated>2021-07-31T03:54:04.399Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;div class=&quot;hbe hbe-container&quot; id=&quot;hexo-blog-encrypt&quot; data-wpm=&quot;Oh, this is an invalid password. Check and try again, please.&quot; data-whm=&quot;OOPS, these decrypted content may changed, but you can still have a look.&quot;&gt;
-  &lt;script id=&quot;hbeData&quot; type=&quot;hbeData&quot; data-hmacdigest=&quot;64dd6edfa1757aa58cd5bc927139b07c85346a527b67e00280a88dca2ff3618b&quot;&gt;165d50f05814027fb7fe5e4ae8a088d8ed45cb227c5039853179c5405e990a0b6dc1c0d6a1948e2bad113f02251fcec2889d66deb3f4446a9d752377d58420c2fccfabce7f18df30a357c20b4b99d3064854e9bedcca3ef87c8b37b9bc431e99616d8e04c31c77e5258563a4b8ba7a24831bab4998496c40dff7c221e81286843ce7821d1b7a38a382839591ff4c6adadce3d0cf2f48899310684a68ac0f3918044d9ecc5841e0a1856b1f7ce275d8550fa8c7387547c2c9f04976814733946c42413a75f2a2f6c5fad16c0aec72847b1ffa460fd4dcd63e85b3c4019e0cbb44c83337c2f6b2c0e06d1e9f3952ea894c3e9b56dba75ced11f42c1ca65f3128130f879f71500d064424b026c0d43d25df35644c339e8722b9db8992f5401e1e7d13f5e2d5a3a9f36ff4f9b0a9238b1f7ebfee7e5328b61adf6548e7f22dbe6e3741e55602ce5ea39520b6d731045f6ae2d82e2a9167b69ce56927ca675ad9d4ff0529e3addea5feaeda891347288a0a09439cb7009eb5f7f8a62c5385fcc59aea141bf1c62b0e1a5b693769d87386f3773336bcd320b8d3c1af4cbaff30d8d5813d92a3eed64ea896400fc3ee683873e49187addbe5e702e5af1e0b5546db94fd574e2dab6e3f6149d2c40884a16487f7230044e9dbf67ddc8d338d6f73a17a0147aac654998e5b3a773e38668f122d3018d7251f0f9a18c2df2b3a8a672db11f6b4ebedfa09ba1e85e07a5ee7900f8ce8a4252e61c555268599e47455f32290d7d0db479b81e015a64b037ba9fefcc1ef5b706ed10cbe278510a647a82e4570250389cae690bf0659fc92d78aa74552e6056e2316bc46e5d7ef7a8f6f23abcc99426f8c2eb31a48a339b3bcb1ce0b2b81546f60532af43ab9793b4ff46319d2b4ed8d91de86184dc11f0f06889b5171b9d4fd74bc82485df7f0b955f9164af6b&lt;/script&gt;
-  &lt;div class=&quot;hbe hbe-content&quot;&gt;
-    &lt;div class=&quot;hbe hbe-input hbe-input-default&quot;&gt;
-      &lt;input class=&quot;hbe hbe-input-field hbe-input-field-default&quot; type=&quot;password&quot; id=&quot;hbePass&quot;&gt;
-      &lt;label class=&quot;hbe hbe-input-label hbe-input-label-default&quot; for=&quot;hbePass&quot;&gt;
-        &lt;span class=&quot;hbe hbe-input-label-content hbe-input-label-content-default&quot;&gt;请输入密码&lt;/span&gt;
-      &lt;/label&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script data-pjax src=&quot;/lib/hbe.js&quot;&gt;&lt;/script&gt;&lt;link href=&quot;/css/hbe.style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="后续" scheme="http://example.com/categories/hexo/%E5%90%8E%E7%BB%AD/"/>
-    
-    
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5.1错误集合</title>
-    <link href="http://example.com/2021/07/27/5.1-cuo-wu-ji-he/"/>
-    <id>http://example.com/2021/07/27/5.1-cuo-wu-ji-he/</id>
-    <published>2021-07-27T02:45:18.000Z</published>
-    <updated>2021-07-29T02:21:52.182Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;错误&quot;&gt;&lt;a href=&quot;#错误&quot; class=&quot;headerlink&quot; title=&quot;错误&quot;&gt;&lt;/a&gt;错误&lt;/h1&gt;&lt;p&gt;1.创建新的文章&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yinhanghang@DESKTOP-6DJJQFB MINGW64 /g/hexo/themes/next (master)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new 4.4建立相册&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Usage: hexo &amp;lt;command&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Commands:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  help     Get help on a command.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  init     Create a new Hexo folder.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  version  Display version information.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Global Options:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --config  Specify config file instead of using _config.yml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --cwd     Specify the CWD&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --debug   Display all verbose messages in the terminal&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --draft   Display draft posts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --safe    Disable all plugins and scripts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  --silent  Hide output on console&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;For more help, you can use &#39;hexo help [command]&#39; for the detailed information&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;or you can check the docs: http://hexo.io/docs/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;选错了文件夹**/g/hexo/themes/next (master)**&lt;/p&gt;
-&lt;p&gt;应该是**/g/hexo**&lt;/p&gt;
-&lt;p&gt;2.hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 5, column 1:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;冒号：一定要用英文的&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;冒号后面一定要加空格&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;单词一定不要写错&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;3.一直打开git bash   有错误及时发现&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="错误" scheme="http://example.com/categories/hexo/%E9%94%99%E8%AF%AF/"/>
-    
-    
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
