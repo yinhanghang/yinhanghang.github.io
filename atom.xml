@@ -347,7 +347,7 @@
     <link href="http://example.com/2021/08/03/0.0hexo-de-ji-ben-cao-zuo/"/>
     <id>http://example.com/2021/08/03/0.0hexo-de-ji-ben-cao-zuo/</id>
     <published>2021-08-03T13:12:23.000Z</published>
-    <updated>2021-09-01T07:45:53.477Z</updated>
+    <updated>2021-10-06T07:49:54.000Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;基本操作&quot;&gt;&lt;a href=&quot;#基本操作&quot; class=&quot;headerlink&quot; title=&quot;基本操作&quot;&gt;&lt;/a&gt;基本操作&lt;/h1&gt;&lt;p&gt;用的不是很多，也不是很熟练，一时半会想不起来，所以写这篇文章，为了以后方便使用&lt;/p&gt;
@@ -362,7 +362,7 @@
 &lt;li&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/li&gt;
 &lt;li&gt;hexo d 部署网站&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;md操作&quot;&gt;&lt;a href=&quot;#md操作&quot; class=&quot;headerlink&quot; title=&quot;md操作&quot;&gt;&lt;/a&gt;md操作&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;引用&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* l&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+&lt;h2 id=&quot;md操作&quot;&gt;&lt;a href=&quot;#md操作&quot; class=&quot;headerlink&quot; title=&quot;md操作&quot;&gt;&lt;/a&gt;md操作&lt;/h2&gt;&lt;h3 id=&quot;1-选项卡&quot;&gt;&lt;a href=&quot;#1-选项卡&quot; class=&quot;headerlink&quot; title=&quot;1.选项卡&quot;&gt;&lt;/a&gt;1.选项卡&lt;/h3&gt;</summary>
     
     
     
@@ -584,7 +584,7 @@ snow.start();
     <link href="http://example.com/2021/07/30/3.14-cha-jian-hexo-blog-encrypt/"/>
     <id>http://example.com/2021/07/30/3.14-cha-jian-hexo-blog-encrypt/</id>
     <published>2021-07-30T01:08:47.000Z</published>
-    <updated>2021-08-03T13:41:20.326Z</updated>
+    <updated>2021-10-06T06:35:18.462Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;div class=&quot;hbe hbe-container&quot; id=&quot;hexo-blog-encrypt&quot; data-wpm=&quot;Oh, this is an invalid password. Check and try again, please.&quot; data-whm=&quot;OOPS, these decrypted content may changed, but you can still have a look.&quot;&gt;
@@ -599,6 +599,34 @@ snow.start();
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;script data-pjax src=&quot;/lib/hbe.js&quot;&gt;&lt;/script&gt;&lt;link href=&quot;/css/hbe.style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    
+    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3.15插件hexo-next-darkmode</title>
+    <link href="http://example.com/2021/07/30/3.15-cha-jian-hexo-next-darkmode/"/>
+    <id>http://example.com/2021/07/30/3.15-cha-jian-hexo-next-darkmode/</id>
+    <published>2021-07-30T01:08:47.000Z</published>
+    <updated>2021-10-06T06:50:27.879Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-next-darkmode&quot;&gt;&lt;a href=&quot;#插件hexo-next-darkmode&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-next-darkmode&quot;&gt;&lt;/a&gt;插件hexo-next-darkmode&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install --save hexo-next-darkmode&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;切换网站的亮暗模式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手动配置文件没成功，只能使用插件&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;暗黑模式的样式很难看&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;在next的_config.yml配置文件添加&lt;/p&gt;</summary>
     
     
     
@@ -710,12 +738,12 @@ snow.start();
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;  &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
 
-        &lt;div id=&quot;aplayer-RWZFzJFh&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-xtlcMYjn&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-RWZFzJFh&quot;),
+            element: document.getElementById(&quot;aplayer-xtlcMYjn&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -744,108 +772,6 @@ snow.start();
     
     
     <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.10插件hexo-tag-echarts</title>
-    <link href="http://example.com/2021/07/29/3.10-cha-jian-hexo-tag-echarts/"/>
-    <id>http://example.com/2021/07/29/3.10-cha-jian-hexo-tag-echarts/</id>
-    <published>2021-07-29T05:06:55.000Z</published>
-    <updated>2021-07-29T05:22:52.098Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-echarts&quot;&gt;&lt;a href=&quot;#插件hexo-tag-echarts&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-echarts&quot;&gt;&lt;/a&gt;插件hexo-tag-echarts&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-echarts3 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts5234&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById(&#39;echarts5234&#39;));
-        // 指定图表的配置项和数据
-        var option = {
-    tooltip : {
-        trigger: &#39;axis&#39;,
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : &#39;shadow&#39;        // 默认为直线，可选为：&#39;line&#39; | &#39;shadow&#39;
-        }
-    },
-    legend: {
-        data:[&#39;利润&#39;, &#39;支出&#39;, &#39;收入&#39;]
-    },
-    grid: {
-        left: &#39;3%&#39;,
-        right: &#39;4%&#39;,
-        bottom: &#39;3%&#39;,
-        containLabel: true
-    },
-    xAxis : [
-        {
-            type : &#39;value&#39;
-        }
-    ],
-    yAxis : [
-        {
-            type : &#39;category&#39;,
-            axisTick : {show: false},
-            data : [&#39;周一&#39;,&#39;周二&#39;,&#39;周三&#39;,&#39;周四&#39;,&#39;周五&#39;,&#39;周六&#39;,&#39;周日&#39;]
-        }
-    ],
-    series : [
-        {
-            name:&#39;利润&#39;,
-            type:&#39;bar&#39;,
-            itemStyle : {
-                normal: {
-                    label: {show: true, position: &#39;inside&#39;}
-                }
-            },
-            data:[200, 170, 240, 244, 200, 220, 210]
-        },
-        {
-            name:&#39;收入&#39;,
-            type:&#39;bar&#39;,
-            stack: &#39;总量&#39;,
-            itemStyle: {
-                normal: {
-                    label : {show: true}
-                }
-            },
-            data:[320, 302, 341, 374, 390, 450, 420]
-        },
-        {
-            name:&#39;支出&#39;,
-            type:&#39;bar&#39;,
-            stack: &#39;总量&#39;,
-            itemStyle: {normal: {
-                label : {show: true, position: &#39;left&#39;}
-            }},
-            data:[-120, -132, -101, -134, -190, -230, -210]
-        }
-    ]
-};
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-&lt;/script&gt;
-
-
-
-&lt;h2 id=&quot;使用说明&quot;&gt;&lt;a href=&quot;#使用说明&quot; class=&quot;headerlink&quot; title=&quot;使用说明&quot;&gt;&lt;/a&gt;使用说明&lt;/h2&gt;&lt;h3 id=&quot;模板&quot;&gt;&lt;a href=&quot;#模板&quot; class=&quot;headerlink&quot; title=&quot;模板&quot;&gt;&lt;/a&gt;模板&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% echarts 400 &#39;85%&#39; %}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;\\TODO option goes here&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;{% endecharts %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;code&gt;echarts&lt;/code&gt; 是标签名，不需要更改，&lt;code&gt;400&lt;/code&gt; 是图表容器的高度，&lt;code&gt;85%&lt;/code&gt; 是图表容器的相对宽度。中键添加自己的表格样式&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-    <category term="md语法" scheme="http://example.com/tags/md%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
