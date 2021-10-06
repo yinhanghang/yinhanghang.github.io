@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-02T06:57:09.034Z</updated>
+  <updated>2021-09-07T07:55:16.324Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,16 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2.5主题next--配置进阶</title>
+    <link href="http://example.com/2021/09/07/2-5-zhu-ti-next-pei-zhi-jin-jie/"/>
+    <id>http://example.com/2021/09/07/2-5-zhu-ti-next-pei-zhi-jin-jie/</id>
+    <published>2021-09-07T07:45:04.000Z</published>
+    <updated>2021-09-07T07:55:16.324Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;next配置进阶&quot;&gt;&lt;a href=&quot;#next配置进阶&quot; class=&quot;headerlink&quot; title=&quot;next配置进阶&quot;&gt;&lt;/a&gt;next配置进阶&lt;/h1&gt;&lt;h2 id=&quot;1-添加自定义html&quot;&gt;&lt;a href=&quot;#1-添加自定义html&quot; class=&quot;headerlink&quot; title=&quot;1.添加自定义html&quot;&gt;&lt;/a&gt;1.添加自定义html&lt;/h2&gt;&lt;p&gt;参考：[(1条消息) &lt;a href=&quot;https://blog.csdn.net/u011331731/article/details/105091276&quot;&gt;转]Hexo博客添加自定义HTML页面_锄禾日当午，可乐和排骨-CSDN博客&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;第一步：&quot;&gt;&lt;a href=&quot;#第一步：&quot; class=&quot;headerlink&quot; title=&quot;第一步：&quot;&gt;&lt;/a&gt;第一步：&lt;/h3&gt;&lt;p&gt;html文件放在source文件夹&lt;/p&gt;
+&lt;h3 id=&quot;第二步：&quot;&gt;&lt;a href=&quot;#第二步：&quot; class=&quot;headerlink&quot; title=&quot;第二步：&quot;&gt;&lt;/a&gt;第二步：&lt;/h3&gt;&lt;p&gt;主配置文件_config.yml跳过渲染&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;skip_render:  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - “文件名”&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - “文件目录/*”&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; - “文件目录/**”&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;*:全部文件&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>1.1wordpress的基础设置</title>
     <link href="http://example.com/2021/09/02/1-1wordpress-de-ji-chu-she-zhi/"/>
     <id>http://example.com/2021/09/02/1-1wordpress-de-ji-chu-she-zhi/</id>
     <published>2021-09-02T05:14:53.000Z</published>
-    <updated>2021-09-02T06:57:09.034Z</updated>
+    <updated>2021-09-03T02:44:12.431Z</updated>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;基础的配置&quot;&gt;&lt;a href=&quot;#基础的配置&quot; class=&quot;headerlink&quot; title=&quot;基础的配置&quot;&gt;&lt;/a&gt;基础的配置&lt;/h1&gt;&lt;p&gt;1.后台，外观，设置&lt;/p&gt;
 &lt;p&gt;对界面进行简单布局&lt;/p&gt;
-&lt;p&gt;2.&lt;/p&gt;
+&lt;p&gt;2.以后补坑&lt;/p&gt;
 </summary>
     
     
@@ -690,12 +710,12 @@ snow.start();
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;  &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
 
-        &lt;div id=&quot;aplayer-ngeUJlsO&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-RWZFzJFh&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-ngeUJlsO&quot;),
+            element: document.getElementById(&quot;aplayer-RWZFzJFh&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -737,11 +757,11 @@ snow.start();
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-echarts&quot;&gt;&lt;a href=&quot;#插件hexo-tag-echarts&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-echarts&quot;&gt;&lt;/a&gt;插件hexo-tag-echarts&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-echarts3 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts3548&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;h2 id=&quot;示例（可以操作）&quot;&gt;&lt;a href=&quot;#示例（可以操作）&quot; class=&quot;headerlink&quot; title=&quot;示例（可以操作）&quot;&gt;&lt;/a&gt;示例（可以操作）&lt;/h2&gt;&lt;div id=&quot;echarts5234&quot; style=&quot;width: 85%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
 &lt;script src=&quot;https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById(&#39;echarts3548&#39;));
+        var myChart = echarts.init(document.getElementById(&#39;echarts5234&#39;));
         // 指定图表的配置项和数据
         var option = {
     tooltip : {
@@ -826,36 +846,6 @@ snow.start();
     <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
     
     <category term="md语法" scheme="http://example.com/tags/md%E8%AF%AD%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.9插件theme-next/hexo-next-title</title>
-    <link href="http://example.com/2021/07/29/3.9-cha-jian-theme-next-hexo-next-title/"/>
-    <id>http://example.com/2021/07/29/3.9-cha-jian-theme-next-hexo-next-title/</id>
-    <published>2021-07-29T04:58:17.000Z</published>
-    <updated>2021-07-29T05:07:48.660Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件theme-next-hexo-next-title&quot;&gt;&lt;a href=&quot;#插件theme-next-hexo-next-title&quot; class=&quot;headerlink&quot; title=&quot;插件theme-next/hexo-next-title&quot;&gt;&lt;/a&gt;插件theme-next/hexo-next-title&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install theme-next/hexo-next-title&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h1&gt;&lt;p&gt;官方介绍&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# Change title and favicon when window is hidden and visible.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title_change:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  onmobile: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Enable random title or not.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # When `random: false`, please fill in the same line of the title option, like `title: one title`.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  random: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Restore the original title after the specified time in milliseconds.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  timeout: 2019&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Options when window is hidden.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  hidden:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    favicon: /images/favicon-32x32-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- 404&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- φ(*￣0￣)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- Waiting for you.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Options when window is visible.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  visible:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    favicon: /images/favicon-32x32-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- 200&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- (✿◡‿◡)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      #- Welcome back!&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;说的是在两个配置文件都可以设置，但是我在主题文件设置没什么用，在网站的设置里面弄成功了&lt;/p&gt;
-&lt;p&gt;这是我的配置，配置好后，清理一下&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#插件heme-next/hexo-next-title&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# Change title and favicon when window is hidden and visible.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#改变标题和图标时，窗口是隐藏和可见的。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title_change:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #在非桌面设备上启用此功能可能不是一个好选择，但这取决于您。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  onmobile: true&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Enable random title or not.是否启用随机标题。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  #基本上，“random:true”表示要显示多个标题，“random:false”表示只显示一个标题。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.您必须遵循以下两个标题选项中注释的格式。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # When `random: false`, please fill in the same line of the title option, like `title: one title`. 请填写标题选项的同一行，如“标题：一个标题”。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  random: false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Restore the original title after the specified time in milliseconds.在指定的时间（毫秒）后还原原始标题。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  timeout: 2019&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Options when window is hidden.隐藏窗口时的选项。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  hidden:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    favicon: /images/favicon-32x32-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - !!str 404&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - φ(*￣0￣)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - Waiting for you.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  # Options when window is visible.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  visible:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    favicon: /images/favicon-32x32-next.png&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - !!str 200&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - (✿◡‿◡)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      - Welcome back!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
