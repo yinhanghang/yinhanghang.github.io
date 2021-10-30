@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-07T07:55:16.324Z</updated>
+  <updated>2021-10-30T06:42:43.897Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1.3webstack-laravel安装</title>
+    <link href="http://example.com/2021/10/30/1-3webstack-laravel-an-zhuang/"/>
+    <id>http://example.com/2021/10/30/1-3webstack-laravel-an-zhuang/</id>
+    <published>2021-10-30T06:26:57.000Z</published>
+    <updated>2021-10-30T06:42:43.897Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;webstack-laravel&quot;&gt;&lt;a href=&quot;#webstack-laravel&quot; class=&quot;headerlink&quot; title=&quot;webstack-laravel&quot;&gt;&lt;/a&gt;webstack-laravel&lt;/h1&gt;&lt;p&gt;导航网页&lt;/p&gt;
+&lt;h2 id=&quot;1-最简单的安装步骤&quot;&gt;&lt;a href=&quot;#1-最简单的安装步骤&quot; class=&quot;headerlink&quot; title=&quot;1.最简单的安装步骤&quot;&gt;&lt;/a&gt;1.最简单的安装步骤&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/Gourds/WebStackLaravel.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd WebStackLaravel/Basicscd &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt install docker-compose&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo service docker start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;docker-compose up -d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-配置相关&quot;&gt;&lt;a href=&quot;#2-配置相关&quot; class=&quot;headerlink&quot; title=&quot;2.配置相关&quot;&gt;&lt;/a&gt;2.配置相关&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;最后：自动启动docker&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	sudo systemctl enable docker&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;登录界面 ip/admin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;账号:admin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;密码:admin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;3-参考网站&quot;&gt;&lt;a href=&quot;#3-参考网站&quot; class=&quot;headerlink&quot; title=&quot;3.参考网站&quot;&gt;&lt;/a&gt;3.参考网站&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;https://hub.docker.com/r/arvon2014/webstack-laravel&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;http://127.0.0.1:8000/admin/auth/login&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://www.daniao.org/7772.html#respond&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+&lt;h1 id=&quot;当初的笔记&quot;&gt;&lt;a href=&quot;#当初的笔记&quot; class=&quot;headerlink&quot; title=&quot;当初的笔记&quot;&gt;&lt;/a&gt;当初的笔记&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="WEBSTACK-laravel" scheme="http://example.com/tags/WEBSTACK-laravel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.2DOCKER安装</title>
+    <link href="http://example.com/2021/10/30/1-2docker-an-zhuang/"/>
+    <id>http://example.com/2021/10/30/1-2docker-an-zhuang/</id>
+    <published>2021-10-30T06:19:18.000Z</published>
+    <updated>2021-10-30T06:42:23.253Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;DOCKER简介&quot;&gt;&lt;a href=&quot;#DOCKER简介&quot; class=&quot;headerlink&quot; title=&quot;DOCKER简介&quot;&gt;&lt;/a&gt;DOCKER简介&lt;/h1&gt;&lt;p&gt;Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows操作系统的机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。&lt;/p&gt;
+&lt;h2 id=&quot;docker安装&quot;&gt;&lt;a href=&quot;#docker安装&quot; class=&quot;headerlink&quot; title=&quot;docker安装&quot;&gt;&lt;/a&gt;docker安装&lt;/h2&gt;&lt;h3 id=&quot;1-使用脚本安装&quot;&gt;&lt;a href=&quot;#1-使用脚本安装&quot; class=&quot;headerlink&quot; title=&quot;1.使用脚本安装&quot;&gt;&lt;/a&gt;1.使用脚本安装&lt;/h3&gt;&lt;h4 id=&quot;1-编写文件-install-docker-sh&quot;&gt;&lt;a href=&quot;#1-编写文件-install-docker-sh&quot; class=&quot;headerlink&quot; title=&quot;1.编写文件 install-docker.sh&quot;&gt;&lt;/a&gt;1.编写文件 install-docker.sh&lt;/h4&gt;&lt;p&gt;创建文件（名字install-docker.sh），内容如下&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;curl -fsSL https://get.docker.com -o get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo sh get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;if 【 ! $(getent group docker) 】;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;then&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    sudo groupadd docker;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;else&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    echo docker user group already exists&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;fi&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo gpasswd -a $USER docker&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo service docker restart&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;rm -rf get-docker.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;开始安装docker,执行     sh install-docker.sh&lt;/p&gt;
+&lt;h3 id=&quot;2-操作命令&quot;&gt;&lt;a href=&quot;#2-操作命令&quot; class=&quot;headerlink&quot; title=&quot;2.操作命令&quot;&gt;&lt;/a&gt;2.操作命令&lt;/h3&gt;</summary>
+    
+    
+    
+    
+    <category term="DOCKER" scheme="http://example.com/tags/DOCKER/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.1WSL安装</title>
+    <link href="http://example.com/2021/10/30/1-1wsl-an-zhuang/"/>
+    <id>http://example.com/2021/10/30/1-1wsl-an-zhuang/</id>
+    <published>2021-10-30T06:02:21.000Z</published>
+    <updated>2021-10-30T06:42:09.076Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;WSL简介&quot;&gt;&lt;a href=&quot;#WSL简介&quot; class=&quot;headerlink&quot; title=&quot;WSL简介&quot;&gt;&lt;/a&gt;WSL简介&lt;/h1&gt;&lt;p&gt;​    Windows下的Linux子系统，&lt;/p&gt;
+&lt;h2 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h2&gt;&lt;h3 id=&quot;1-官方教程安装&quot;&gt;&lt;a href=&quot;#1-官方教程安装&quot; class=&quot;headerlink&quot; title=&quot;1.官方教程安装&quot;&gt;&lt;/a&gt;1.官方教程安装&lt;/h3&gt;&lt;p&gt;官网安装教程：&lt;a href=&quot;https://docs.microsoft.com/zh-cn/windows/wsl/install-manual&quot;&gt;https://docs.microsoft.com/zh-cn/windows/wsl/install-manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意：&lt;br&gt;    1.不要使用上面那个自动安装，下载Ubuntu卡在0.3%，选择上面链接那个手动安装&lt;br&gt;    2.看清系统要求&lt;/p&gt;
+&lt;h3 id=&quot;2-在商店搜索WSL，安装linux版本&quot;&gt;&lt;a href=&quot;#2-在商店搜索WSL，安装linux版本&quot; class=&quot;headerlink&quot; title=&quot;2.在商店搜索WSL，安装linux版本&quot;&gt;&lt;/a&gt;2.在商店搜索WSL，安装linux版本&lt;/h3&gt;&lt;h3 id=&quot;3-一些wsl命令&quot;&gt;&lt;a href=&quot;#3-一些wsl命令&quot; class=&quot;headerlink&quot; title=&quot;3.一些wsl命令&quot;&gt;&lt;/a&gt;3.一些wsl命令&lt;/h3&gt;&lt;h4 id=&quot;1-查询安装的系统&quot;&gt;&lt;a href=&quot;#1-查询安装的系统&quot; class=&quot;headerlink&quot; title=&quot;1.查询安装的系统&quot;&gt;&lt;/a&gt;1.查询安装的系统&lt;/h4&gt;</summary>
+    
+    
+    
+    
+    <category term="WSL" scheme="http://example.com/tags/WSL/"/>
+    
+  </entry>
   
   <entry>
     <title>2.5主题next--配置进阶</title>
@@ -656,111 +728,6 @@ snow.start();
 
 &lt;p&gt;参数说明:&lt;br&gt;onlypost:&lt;br&gt;是否仅文章中的图片做懒加载, 如果为 false, 则主题中的其他图片, 也会做懒加载, 如头像, logo 等任何图片.&lt;br&gt;loadingImg - 图片未加载时的代替图:&lt;br&gt;不填写使用默认加载图片,如果需要自定义,添填入loading图片地址.&lt;br&gt;如果是本地图片，不要忘记把图片添加到你的主题目录下. Next 主题需将图片放到~\themes\next\source\images目录下,然后引用时: loadingImg: /images/图片文件名&lt;/p&gt;
 </summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.6其他配置</title>
-    <link href="http://example.com/2021/07/29/4.6-qi-ta-pei-zhi/"/>
-    <id>http://example.com/2021/07/29/4.6-qi-ta-pei-zhi/</id>
-    <published>2021-07-29T08:04:46.000Z</published>
-    <updated>2021-07-30T15:21:38.693Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h2 id=&quot;添加-一言&quot;&gt;&lt;a href=&quot;#添加-一言&quot; class=&quot;headerlink&quot; title=&quot;添加 一言&quot;&gt;&lt;/a&gt;添加 一言&lt;/h2&gt;&lt;p&gt;代码&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://api.uixsj.cn/hitokoto/w.php?code=js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;div id=&quot;xsjhitokoto&quot;&amp;gt;&amp;lt;script&amp;gt;xsjhitokoto()&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;https://api.uixsj.cn/hitokoto/en.php?code=js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;div id=&quot;enhitokoto&quot;&amp;gt;&amp;lt;script&amp;gt;enhitokoto()&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;将下面这段代码放入页面内需要展示一句话的位置即可。你可以放在文章中，侧栏中。&lt;/p&gt;
-&lt;hr&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://api.uixsj.cn/hitokoto/w.php?code=js&quot;&gt;&lt;/script&gt;&lt;div id=&quot;xsjhitokoto&quot;&gt;&lt;script&gt;xsjhitokoto()&lt;/script&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;p&gt;中英文版 使用方法同上&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>3.12插件hexo-tag-dplayer</title>
-    <link href="http://example.com/2021/07/29/3.12-cha-jian-hexo-tag-dplayer/"/>
-    <id>http://example.com/2021/07/29/3.12-cha-jian-hexo-tag-dplayer/</id>
-    <published>2021-07-29T06:14:04.000Z</published>
-    <updated>2021-07-29T06:47:23.626Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-dplayer&quot;&gt;&lt;a href=&quot;#插件hexo-tag-dplayer&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-dplayer&quot;&gt;&lt;/a&gt;插件hexo-tag-dplayer&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-dplayer --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;代码（md文档直接显示）&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% dplayer &quot;url=http://www.nenu.edu.cn/_upload/article/videos/03/5f/7c999eed42e3aadc413d7f851f0e/0f50b3eb-9285-41d2-ac4d-6cc363651aad_B.mp4&quot;  &quot;autoplay=true&quot; &quot;preload=metadata&quot; &quot;hotkey=true&quot; %} &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new DPlayer({&quot;container&quot;:document.getElementById(&quot;dplayer0&quot;),&quot;hotkey&quot;:true,&quot;preload&quot;:&quot;metadata&quot;,&quot;video&quot;:{&quot;url&quot;:&quot;http://www.nenu.edu.cn/_upload/article/videos/03/5f/7c999eed42e3aadc413d7f851f0e/0f50b3eb-9285-41d2-ac4d-6cc363651aad_B.mp4&quot;}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()&lt;/script&gt; 
-
-&lt;p&gt;代码：（优酷视频）&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;iframe height=498 width=510 src=&#39;https://player.youku.com/embed/XMjk4ODAyMzIyOA==&#39; frameborder=0 &#39;allowfullscreen&#39;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.11插件hexo-tag-aplayer</title>
-    <link href="http://example.com/2021/07/29/3.11-cha-jian-hexo-tag-aplayer/"/>
-    <id>http://example.com/2021/07/29/3.11-cha-jian-hexo-tag-aplayer/</id>
-    <published>2021-07-29T06:13:49.000Z</published>
-    <updated>2021-07-29T07:24:46.581Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-tag-aplayer&quot;&gt;&lt;a href=&quot;#插件hexo-tag-aplayer&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-tag-aplayer&quot;&gt;&lt;/a&gt;插件hexo-tag-aplayer&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-aplayer --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;1.aplayer使用&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;  &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-        &lt;div id=&quot;aplayer-RRbsyRFH&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
-            &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
-        &lt;/div&gt;
-        &lt;script&gt;
-          var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-RRbsyRFH&quot;),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: &quot;她的睫毛&quot;,
-              author: &quot;周杰伦&quot;,
-              url: &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot;,
-              pic: &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot;,
-              lrc: &quot;&quot;
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        &lt;/script&gt;
-
-&lt;p&gt;2.MetingJS ，网易云歌单&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- 简单示例 (id, server, type)  --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;{% meting &quot;6870752010&quot; &quot;netease&quot; &quot;playlist&quot; %}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
