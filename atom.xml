@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-30T09:30:40.983Z</updated>
+  <updated>2021-11-29T09:03:20.316Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>导航页说明</title>
+    <link href="http://example.com/2021/11/29/dao-hang-ye-shuo-ming/"/>
+    <id>http://example.com/2021/11/29/dao-hang-ye-shuo-ming/</id>
+    <published>2021-11-29T09:00:49.534Z</published>
+    <updated>2021-11-29T09:03:20.316Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;导航页&quot;&gt;&lt;a href=&quot;#导航页&quot; class=&quot;headerlink&quot; title=&quot;导航页&quot;&gt;&lt;/a&gt;导航页&lt;/h1&gt;&lt;p&gt;webstack&lt;/p&gt;
+&lt;h1 id=&quot;以前&quot;&gt;&lt;a href=&quot;#以前&quot; class=&quot;headerlink&quot; title=&quot;以前&quot;&gt;&lt;/a&gt;以前&lt;/h1&gt;&lt;p&gt;一开始使用的是html+css+js纯代码方式，很烦，放弃了，以后也不更新了&lt;/p&gt;
+&lt;h1 id=&quot;现在&quot;&gt;&lt;a href=&quot;#现在&quot; class=&quot;headerlink&quot; title=&quot;现在&quot;&gt;&lt;/a&gt;现在&lt;/h1&gt;&lt;p&gt;现在使用hugo的webstack主题&lt;/p&gt;
+&lt;p&gt;放在coding了，现在直接挂链接&lt;/p&gt;
+</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    
+    <category term="导航" scheme="http://example.com/categories/hexo/%E5%AF%BC%E8%88%AA/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="导航" scheme="http://example.com/tags/%E5%AF%BC%E8%88%AA/"/>
+    
+  </entry>
   
   <entry>
     <title>1.1officeE5申请</title>
@@ -694,34 +721,6 @@ snow.start();
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;script data-pjax src=&quot;/lib/hbe.js&quot;&gt;&lt;/script&gt;&lt;link href=&quot;/css/hbe.style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="插件" scheme="http://example.com/categories/hexo/%E7%BD%91%E7%AB%99/%E6%8F%92%E4%BB%B6/"/>
-    
-    
-    <category term="hexo-插件" scheme="http://example.com/tags/hexo-%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3.15插件hexo-next-darkmode</title>
-    <link href="http://example.com/2021/07/30/3.15-cha-jian-hexo-next-darkmode/"/>
-    <id>http://example.com/2021/07/30/3.15-cha-jian-hexo-next-darkmode/</id>
-    <published>2021-07-30T01:08:47.000Z</published>
-    <updated>2021-10-06T06:50:27.879Z</updated>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1 id=&quot;插件hexo-next-darkmode&quot;&gt;&lt;a href=&quot;#插件hexo-next-darkmode&quot; class=&quot;headerlink&quot; title=&quot;插件hexo-next-darkmode&quot;&gt;&lt;/a&gt;插件hexo-next-darkmode&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install --save hexo-next-darkmode&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;切换网站的亮暗模式&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;手动配置文件没成功，只能使用插件&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;暗黑模式的样式很难看&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;p&gt;在next的_config.yml配置文件添加&lt;/p&gt;</summary>
     
     
     
